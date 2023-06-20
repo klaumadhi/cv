@@ -251,3 +251,24 @@ body {
       width: 290px;
     }
   }
+
+  @media (max-width: 500px) {
+    .image-container img {
+      width: 45%;
+    }
+
+    .textbox {
+      height: 30px;
+    }
+
+    .textbox .icon {
+      margin-top: 5px;
+    }
+
+    #output {
+    font-size: 14px;
+    margin-top: 6px;
+    margin-left: 5px;
+
+    }
+  }

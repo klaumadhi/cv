@@ -123,18 +123,17 @@ body {
   .container {
     display: flex;
     justify-content: center;
-    align-items: center;
   }
 
   .image-container {
-    max-width: 700px;
-    min-width: 700px;
+
     text-align: center;
     margin-top: 10%;
+
   }
 
   .image-container img {
-    max-width: 50%;
+    width: 400px;
     height: auto;
     
   }
@@ -233,6 +232,12 @@ body {
     right: 50px;
   }
 
+  @media (max-width: 1000px) {
+
+    .dropdown-content ul{
+      width: 290px;
+    }
+  }
 
 
   @media (max-width: 768px) {
@@ -241,20 +246,18 @@ body {
     }
 
     .image-container img {
-      width: 100%;
+      width: 400px;
     }
+
+    
+
   }
 
-  @media (max-width: 1000px) {
 
-    .dropdown-content ul{
-      width: 290px;
-    }
-  }
 
   @media (max-width: 500px) {
     .image-container img {
-      width: 45%;
+      width: 300px;
     }
 
     .textbox {
@@ -271,4 +274,13 @@ body {
     margin-left: 5px;
 
     }
+
+    .last-div {
+
+      height: 30px;
+      font-size: smaller;
+    
+      
+    }
+
   }

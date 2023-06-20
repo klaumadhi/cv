@@ -127,7 +127,8 @@ body {
   }
 
   .image-container {
-    width: 700px;
+    max-width: 700px;
+    min-width: 700px;
     text-align: center;
     margin-top: 10%;
   }
@@ -135,6 +136,7 @@ body {
   .image-container img {
     max-width: 50%;
     height: auto;
+    
   }
 
 
@@ -192,7 +194,7 @@ body {
     height: 35px;
     border: 1px solid #ffffff;
     font-size: 15px;
-    background-color: #f5f1f1;
+    background-color: #c4c4c485;
     cursor: pointer;
     color: #8b8a8a;
     font-weight: 500;
@@ -229,4 +231,23 @@ body {
   .right-align {
     position: absolute;
     right: 50px;
+  }
+
+
+
+  @media (max-width: 768px) {
+    .textbox {
+      width: 90%;
+    }
+
+    .image-container img {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 1000px) {
+
+    .dropdown-content ul{
+      width: 290px;
+    }
   }

@@ -210,13 +210,17 @@ body {
     margin-top: 20px;
     gap: 20px;
     background-color: #f5f1f1;
-    
-    bottom: 0;
+    bottom: 0px;
     width: 100%;
     border-top: 1px solid #dadada;
     padding-left: 10px;
     color: #aaaaaa;
     
+  }
+
+  #first-page-div{
+    position:absolute;
+    bottom: 0;
   }
 
   .last-div a {
@@ -526,5 +530,14 @@ body {
     .dropdown-content  ul li {
       margin-right: 70px;
       
+    }
+
+    .textbox-nav {
+      width: 23rem;
+      margin-left: 8%;
+    }
+
+    .textbox-nav .icon{
+      margin-left: 92%;
     }
   }

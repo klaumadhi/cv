@@ -478,7 +478,7 @@ body {
 
 
 
-  @media (max-width: 711px) {
+  @media (max-width: 511px) {
     .image-container img {
       width: 300px;
     }
@@ -508,13 +508,23 @@ body {
 
     .nav-left div {
       display: block;
-      margin-left: 20%;
+      margin-left: 3%;
       margin-top: 20px;
     }
 
     .nav-left img {
-      margin-left: 60%;
+      
+      margin-left: 40%;
       width: 100px;
     }
 
+    .nav-right .navbar-items .dropdown i {
+
+      margin-left: -40px;
+    }
+
+    .dropdown-content  ul li {
+      margin-right: 70px;
+      
+    }
   }
